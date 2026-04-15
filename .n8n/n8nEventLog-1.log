@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"17cbed1c-9899-4914-b8f4-cb905a314819","ts":"2026-04-13T18:55:16.734-04:00","eventName":"n8n.audit.user.login.success","message":"n8n.audit.user.login.success","payload":{"userId":"fcc7e3b1-d7b8-453d-9250-ce7ed5bf518c","_email":"shreypratapsingh.to@outlook.com","_firstName":"shrey","_lastName":"pratap","globalRole":"global:owner","authenticationMethod":"email"}}
+{"__type":"$$EventMessageConfirm","confirm":"17cbed1c-9899-4914-b8f4-cb905a314819","ts":"2026-04-13T18:55:16.735-04:00","source":{"id":"0","name":"eventBus"}}

@@ -1,0 +1,10 @@
+services:
+  n8n:
+    image: pratapshrey/leetcode-notes:latest
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+    volumes:
+      - /home/anon/n8n-docker/.n8n/storage:/home/node/.n8n/storage

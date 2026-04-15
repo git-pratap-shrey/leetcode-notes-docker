@@ -1,0 +1,10 @@
+# to start the server, locally:
+## run these steps in order:
+
+1. export N8N_USER_FOLDER=~/n8n-docker && npx n8n
+
+2. cloudflared tunnel --url http://localhost:5678
+
+3. copy the tunnel-url and manually change the content/tunnel.txt in github.
+
+here is the n8n sqlite db : ~/n8n-docker/.n8n/database.sqlite
