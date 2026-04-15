@@ -2,3 +2,4 @@
 *.pem
 web-server-0.pem
 docker.txt
+.git
